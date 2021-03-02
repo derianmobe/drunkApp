@@ -1,8 +1,8 @@
 import Test from './Test';
 import { connect } from 'react-redux';
 
-import * as countSelectors from '../../state/reducers/countReducer/selectors';
-import * as countActions from '../../state/reducers/countReducer/actions';
+import * as countSelectors from '@state/reducers/countReducer/selectors';
+import * as countActions from '@state/reducers/countReducer/actions';
 
 const mapStateToProps = (state: any) => ({
   count: countSelectors.getCount(state),
