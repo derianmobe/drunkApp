@@ -12,7 +12,8 @@
     "target": "esnext",
     "baseUrl": ".",
     "paths": {
-      "@state/*": ["src/state/*"]
+      "@state/*": ["src/state/*"],
+      "@ui": ["src/ui/index.ts"]
     }
   },
   "exclude": [

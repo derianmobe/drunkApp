@@ -7,6 +7,7 @@ module.exports = {
         root: ['.src'],
         alias: {
           '@state': './src/state',
+          '@ui': './src/ui/',
         },
       },
     ],

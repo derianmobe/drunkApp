@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Button } from 'react-native-ui-lib';
+import { View, Text, Button } from '@ui';
 
 type Props = {
   count: number;
