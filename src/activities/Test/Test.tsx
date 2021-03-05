@@ -1,5 +1,6 @@
+import { Button, Text, View } from '@ui';
+
 import React from 'react';
-import { View, Text, Button } from '@ui';
 
 type Props = {
   count: number;
@@ -7,6 +8,13 @@ type Props = {
 };
 
 class Test extends React.PureComponent<Props, {}> {
+  static navigationOptions = () => {
+    return {
+      title: 'algo',
+      headerTitleStyle: { color: 'red' },
+    };
+  };
+
   incrementCount = () => {
     const { changeCount } = this.props;
     let { count } = this.props;

@@ -1,11 +1,11 @@
+import Navigator from '@routes';
 import React from 'react';
-import { View } from 'react-native-ui-lib';
-import Test from './src/activities/Test';
+import { View } from '@ui';
 
 const App = () => {
   return (
     <View flex>
-      <Test />
+      <Navigator />
     </View>
   );
 };

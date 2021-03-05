@@ -13,7 +13,10 @@
     "baseUrl": ".",
     "paths": {
       "@state/*": ["src/state/*"],
-      "@ui": ["src/ui/index.ts"]
+      "@ui": ["src/ui/index.ts"],
+      "@activities/*": ["src/activities/*"],
+      "@common": ["src/common/index.ts"],
+      "@routes": ["src/routes/index.tsx"]
     }
   },
   "exclude": [

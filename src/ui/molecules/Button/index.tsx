@@ -6,7 +6,6 @@ import styles from './styles';
 type Props = RNUI;
 
 export default class Component extends PureComponent<Props> {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static height: any = {
     xsmall: 55,
     small: 55,
